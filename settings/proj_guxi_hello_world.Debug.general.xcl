@@ -1,0 +1,15 @@
+"S:\arm\bin\armproc.dll" 
+
+"S:\arm\bin\armjlink2.dll" 
+
+"C:\Users\Pedro Pachuca\e2_studio\workspace\GUIApp\Debug\Exe\proj_guxi_hello_world.out" 
+
+--plugin "S:\arm\bin\armbat.dll" 
+
+--device_macro "S:\arm\config\debugger\Renesas\R7FS7G2x.dmac" 
+
+--flash_loader "S:\arm\config\flashloader\Renesas\FlashR7FS7G27H.board" 
+
+
+
+

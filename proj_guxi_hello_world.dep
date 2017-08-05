@@ -1,0 +1,1566 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1770267235</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\synergy\ssp\inc\driver\instances\r_ioport.h</file>
+      <file>$PROJ_DIR$\synergy\ssp\inc\driver\instances\r_elc.h</file>
+      <file>$PROJ_DIR$\synergy\ssp\inc\driver\instances\r_fmi.h</file>
+      <file>$PROJ_DIR$\synergy\board\s7g2_sk\bsp_qspi.h</file>
+      <file>$PROJ_DIR$\synergy\ssp\inc\bsp\bsp_api.h</file>
+      <file>$PROJ_DIR$\synergy\board\s7g2_sk\bsp_init.h</file>
+      <file>$PROJ_DIR$\synergy\ssp\inc\bsp\cmsis\Include\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\synergy\ssp\inc\driver\api\r_elc_api.h</file>
+      <file>$PROJ_DIR$\synergy\board\s7g2_sk\bsp_leds.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\inc\bsp\cmsis\Include\core_cm4.h</file>
+      <file>$PROJ_DIR$\synergy\ssp\inc\bsp\cmsis\Include\core_cm4_simd.h</file>
+      <file>$PROJ_DIR$\synergy\ssp\inc\bsp\cmsis\Include\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\synergy\board\s7g2_sk\bsp_init.c</file>
+      <file>$PROJ_DIR$\synergy\board\s7g2_sk\bsp.h</file>
+      <file>$PROJ_DIR$\synergy\ssp\inc\driver\api\r_ioport_api.h</file>
+      <file>$PROJ_DIR$\synergy\ssp\inc\driver\api\r_fmi_api.h</file>
+      <file>$PROJ_DIR$\synergy\ssp\inc\driver\api\r_cgc_api.h</file>
+      <file>$PROJ_DIR$\synergy\board\s7g2_sk\bsp_qspi.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\inc\driver\instances\r_cgc.h</file>
+      <file>$PROJ_DIR$\synergy\board\s7g2_sk\bsp_leds.h</file>
+      <file>$PROJ_DIR$\src\synergy_gen\hal_data.c</file>
+      <file>$PROJ_DIR$\src\gui\guiapp_specifications.c</file>
+      <file>$PROJ_DIR$\src\synergy_gen\main_thread.h</file>
+      <file>$PROJ_DIR$\src\synergy_gen\pin_data.c</file>
+      <file>$PROJ_DIR$\src\synergy_gen\main_thread.c</file>
+      <file>$PROJ_DIR$\src\synergy_gen\common_data.h</file>
+      <file>$PROJ_DIR$\src\synergy_gen\hal_data.h</file>
+      <file>$PROJ_DIR$\src\gui\guiapp_resources.c</file>
+      <file>$PROJ_DIR$\src\synergy_gen\main.c</file>
+      <file>$PROJ_DIR$\src\synergy_gen\message_data.c</file>
+      <file>$PROJ_DIR$\src\guiapp_event_handlers.c</file>
+      <file>$PROJ_DIR$\src\hardware\lcd_setup.c</file>
+      <file>$PROJ_DIR$\src\gui\guiapp_resources.h</file>
+      <file>$PROJ_DIR$\src\hal_entry.c</file>
+      <file>$PROJ_DIR$\src\gui\guiapp_specifications.h</file>
+      <file>$PROJ_DIR$\src\main_thread_entry.c</file>
+      <file>$PROJ_DIR$\src\synergy_gen\common_data.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\driver\r_elc\r_elc.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\bsp\mcu\s7g2\bsp_group_irq.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\bsp\mcu\s7g2\bsp_mcu_info.h</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\driver\r_dtc\r_dtc.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\bsp\mcu\s7g2\bsp_rom_registers.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\driver\r_cgc\hw\hw_cgc.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\bsp\mcu\s7g2\bsp_fmi_R7FS7G27H3A01CFC.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\bsp\mcu\s7g2\bsp_hw_locks.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\driver\r_cgc\r_cgc.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\driver\r_fmi\r_fmi.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\bsp\mcu\s7g2\bsp_module_stop.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\driver\r_glcd\r_glcd.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\driver\r_icu\r_icu.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\driver\r_ioport\r_ioport.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\driver\r_sci_spi\r_sci_spi.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\framework\sf_el_gx\gx_display_driver_synergy_dave2d.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\driver\r_riic\r_riic.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\driver\r_ioport\hw\hw_ioport_private.h</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\driver\r_jpeg_decode\r_jpeg_decode.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\framework\sf_el_gx\gx_display_driver_synergy_dave2d_8bit_palette.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\framework\sf_el_gx\sf_el_gx.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\inc\framework\api\sf_message_api.h</file>
+      <file>$PROJ_DIR$\synergy\ssp\inc\framework\el\gx_api.h</file>
+      <file>$PROJ_DIR$\synergy\ssp\inc\framework\instances\sf_message.h</file>
+      <file>$PROJ_DIR$\synergy\ssp\inc\ssp_common_api.h</file>
+      <file>$PROJ_DIR$\synergy\ssp\inc\ssp_features.h</file>
+      <file>$PROJ_DIR$\synergy\ssp\inc\ssp_version.h</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\bsp\cmsis\Device\RENESAS\S7G2\Include\S7G2.h</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\bsp\mcu\s7g2\bsp_feature.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\inc\framework\el\tx_api.h</file>
+      <file>$PROJ_DIR$\synergy\ssp\inc\framework\el\tx_port.h</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\bsp\mcu\s7g2\bsp_elc.h</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\bsp\mcu\all\bsp_locking.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\bsp\mcu\all\bsp_compiler_support.h</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\bsp\mcu\all\bsp_register_protection.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\bsp\cmsis\Device\RENESAS\S7G2\Source\system_S7G2.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\bsp\cmsis\Device\RENESAS\S7G2\Source\startup_S7G2.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\bsp\mcu\all\bsp_common_leds.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\bsp\mcu\all\bsp_feature.h</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\bsp\mcu\all\bsp_common_leds.h</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\bsp\cmsis\Device\RENESAS\S7G2\Include\system_S7G2.h</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\bsp\mcu\all\bsp_irq.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\bsp\mcu\all\bsp_clocks.h</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\bsp\mcu\all\bsp_common.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\bsp\mcu\all\bsp_irq.h</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\bsp\mcu\all\bsp_error_checking.h</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\bsp\mcu\all\bsp_register_protection.h</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\bsp\mcu\all\bsp_locking.h</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\bsp\mcu\all\bsp_sbrk.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\bsp\mcu\all\bsp_delay.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\bsp\mcu\s7g2\bsp_cache.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\bsp\mcu\all\bsp_mcu_api.h</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\bsp\mcu\all\bsp_group_irq.h</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\bsp\mcu\all\bsp_common.h</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\bsp\mcu\s7g2\bsp_cache.h</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\bsp\mcu\all\bsp_delay.h</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\bsp\mcu\s7g2\bsp_clocks.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\framework\tes\dave2d\dave_rbuffer.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\framework\tes\dave2d\dave_dlist.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\framework\tes\dave2d\dave_driver.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\framework\tes\dave2d\dave_line.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\framework\tes\dave2d\dave_edge.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\framework\tes\dave2d\dave_pattern.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\framework\tes\dave2d\dave_perfcount.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\framework\tes\dave2d\dave_polyline.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\framework\tes\dave2d\dave_quad.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\framework\tes\dave2d\dave_curve.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\framework\tes\dave2d\dave_context.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\framework\tes\dave2d\dave_errorcodes.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\framework\tes\dave2d\dave_gradient.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\framework\tes\dave2d\dave_hardware.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\framework\tes\dave2d\dave_math.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\framework\tes\dave2d\dave_memory.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\framework\tes\dave2d\dave_render.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\framework\sf_message\sf_message.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\framework\tes\dave2d\dave_blit.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\framework\sf_touch_panel_i2c\sf_touch_panel_i2c.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\framework\sf_jpeg_decode\sf_jpeg_decode.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\framework\sf_tes_2d_drw\sf_tes_2d_drw_memory.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\framework\sf_tes_2d_drw\sf_tes_2d_drw_irq.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\framework\tes\dave2d\dave_box.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\framework\sf_tes_2d_drw\sf_tes_2d_drw_base.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\framework\tes\dave2d\dave_64bitoperation.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\framework\tes\dave2d\dave_circle.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\framework\tes\dave2d\dave_texture.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\framework\tes\dave2d\dave_base.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\framework\sf_external_irq\sf_external_irq.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\dave_blit.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\dave_box.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\proj_guxi_hello_world.out</file>
+      <file>$PROJ_DIR$\Debug\Obj\sf_message.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\sf_tes_2d_drw_base.pbi</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\framework\tes\dave2d\dave_wedge.c</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\framework\tes\dave2d\dave_utility.c</file>
+      <file>$PROJ_DIR$\synergy\ssp_supplemental\touch_drivers\touch_panel_i2c_sx8654\touch_panel_i2c_sx8654.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\sf_jpeg_decode.pbi</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\framework\tes\dave2d\dave_viewport.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\sf_tes_2d_drw_memory.pbi</file>
+      <file>$PROJ_DIR$\synergy\ssp\src\framework\tes\dave2d\dave_triangle.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\dave_64bitoperation.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_glcd.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_sci_spi.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_hw_locks.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_common.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_clocks.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_rom_registers.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\gx_display_driver_synergy_dave2d.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\sf_el_gx.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\sf_touch_panel_i2c.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_riic.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_cgc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_cache.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_feature.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_fmi_R7FS7G27H3A01CFC.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_module_stop.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_elc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_delay.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_S7G2.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_register_protection.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_sbrk.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_locking.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\hw_cgc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_fmi.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_irq.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_icu.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_jpeg_decode.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_dtc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_ioport.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_group_irq.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_common_leds.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_irq.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\message_data.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_init.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_entry.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_leds.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_data.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\guiapp_resources.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_qspi.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_locking.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\common_data.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\sf_tes_2d_drw_irq.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lcd_setup.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\main_thread_entry.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\startup_S7G2.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_S7G2.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_common_leds.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\main_thread.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\guiapp_specifications.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\guiapp_event_handlers.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_common.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_delay.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\pin_data.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_register_protection.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_cgc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_feature.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_fmi_R7FS7G27H3A01CFC.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_group_irq.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_cache.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_sci_spi.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\sf_tes_2d_drw_base.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\sf_touch_panel_i2c.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\gx_display_driver_synergy_dave2d_8bit_palette.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_sbrk.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_icu.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_jpeg_decode.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\sf_message.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_clocks.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_hw_locks.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\sf_jpeg_decode.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_elc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_fmi.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\gx_display_driver_synergy_dave2d.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\sf_external_irq.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_rom_registers.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\gx_display_driver_synergy_dave2d_8bit_palette.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\sf_tes_2d_drw_irq.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_glcd.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_ioport.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_riic.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_dtc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\sf_el_gx.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\sf_tes_2d_drw_memory.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_module_stop.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\hw_cgc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\dave_polyline.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\dave_rbuffer.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\dave_base.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\dave_circle.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\dave_pattern.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\dave_texture.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\dave_memory.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\dave_blit.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\dave_utility.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\sf_external_irq.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\dave_triangle.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\dave_perfcount.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\dave_errorcodes.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\dave_viewport.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\touch_panel_i2c_sx8654.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\dave_context.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\dave_driver.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\dave_edge.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\dave_dlist.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\dave_gradient.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\dave_line.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\dave_quad.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\dave_render.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\dave_box.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\dave_wedge.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\guiapp_resources.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\dave_curve.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\guiapp_specifications.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\dave_64bitoperation.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\dave_hardware.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\dave_math.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lcd_setup.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\common_data.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\message_data.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_data.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\pin_data.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\guiapp_event_handlers.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_init.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\main_thread_entry.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_leds.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_qspi.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\main_thread.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\startup_S7G2.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_entry.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\dave_base.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\synergy_cfg\ssp_cfg\bsp\bsp_mcu_family_cfg.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\synergy_cfg\ssp_cfg\bsp\bsp_mcu_device_pn_cfg.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$PROJ_DIR$\synergy_cfg\ssp_cfg\bsp\bsp_cfg.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\assert.h</file>
+      <file>$PROJ_DIR$\synergy_cfg\ssp_cfg\bsp\bsp_clock_cfg.h</file>
+      <file>$PROJ_DIR$\synergy_cfg\ssp_cfg\bsp\bsp_mcu_device_cfg.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\synergy_cfg\ssp_cfg\bsp\bsp_board_cfg.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\dave_quad.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\dave_edge.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\dave_context.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\dave_gradient.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\dave_hardware.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\dave_pattern.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\dave_rbuffer.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\dave_dlist.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\dave_polyline.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\dave_texture.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\dave_line.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\dave_triangle.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\dave_viewport.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\proj_guxi_hello_world.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\dave_driver.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\dave_circle.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\dave_utility.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\dave_memory.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\dave_render.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\dave_math.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\dave_curve.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\dave_errorcodes.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\dave_perfcount.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\dave_wedge.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\touch_panel_i2c_sx8654.pbi</file>
+      <file>$PROJ_DIR$\synergy_cfg\ssp_cfg\bsp\bsp_pin_cfg.h</file>
+      <file>$PROJ_DIR$\synergy_cfg\ssp_cfg\driver\r_ioport_cfg.h</file>
+      <file>$PROJ_DIR$\synergy_cfg\ssp_cfg\driver\r_elc_cfg.h</file>
+      <file>$PROJ_DIR$\synergy_cfg\ssp_cfg\driver\r_cgc_cfg.h</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 126</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\board\s7g2_sk\bsp_leds.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 261</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 171</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 92 270 91 10 3 84 269 4 274 15 61 14 285 279 280 77 271 13 273 90 89 2 88 268 39 64 11 5 272 283 70 83 81 79 62 76 75 82 63 286 282 287 284 275 278 276 68 9 6 277 19 281</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\board\s7g2_sk\bsp_init.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 259</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 169</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 271 76 278 68 6 19 83 274 284 277 272 15 79 82 286 285 275 9 273 4 81 62 75 63 280 282 287 276 269 61 90 84 89 14 2 92 88 279 268 270 39 64 91 77 11 10 13 5 3 283 70 281</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\board\s7g2_sk\bsp_qspi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 262</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 174</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 286 285 9 271 82 275 79 273 15 83 76 274 284 278 68 6 277 19 4 81 62 75 63 280 282 287 276 269 272 61 90 84 89 14 2 92 88 279 268 270 39 64 91 77 11 10 13 5 3 283 70 281</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\synergy_gen\hal_data.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 256</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 172</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19 273 280 285 62 63 276 67 25 81 75 275 269 272 4 279 83 79 76 82 274 278 68 9 6 277 271 15 286 282 287 284 61 90 84 89 14 2 92 88 268 270 39 64 91 77 11 10 66 26 13 5 3 283 70 281 60 58</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\gui\guiapp_specifications.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 249</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 185</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 279 285 32 281 283 280 286 282 287 284 59 66 67</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\synergy_gen\pin_data.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 257</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 189</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 88 285 268 64 11 272 89 280 90 2 39 271 19 314 61 84 14 92 269 279 4 270 91 77 10 273 15 83 81 79 62 76 75 82 274 63 286 282 287 284 275 278 276 68 9 6 277 0 13 5 3 283 70 281</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\synergy_gen\main_thread.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 263</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 184</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2 90 39 283 67 89 88 285 280 268 64 11 5 269 4 61 84 14 92 279 270 91 77 10 271 272 70 281 66 273 83 81 79 62 76 75 82 274 63 286 282 287 284 275 278 276 68 9 6 277 13 3 22 19 15</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\gui\guiapp_resources.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 247</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 173</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 67 66 59</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\synergy_gen\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 267</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 180</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 92 84 285 279 280 77 271 283 67 61 14 269 4 270 91 10 5 90 89 2 88 268 39 64 11 272 70 281 66 273 83 81 79 62 76 75 82 274 63 286 282 287 284 275 278 276 68 9 6 277 13 3 19 15</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\synergy_gen\message_data.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 255</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 168</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 269 4 14 61 270 91 10 283 67 84 92 285 279 280 77 271 5 58 90 89 2 88 268 39 64 11 272 70 281 66 273 83 81 79 62 76 75 82 274 63 286 282 287 284 275 278 276 68 9 6 277 13 3 60 19 15</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\guiapp_event_handlers.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 258</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 186</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66 59 67 32</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\hardware\lcd_setup.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 253</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 178</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2 90 39 283 67 89 88 285 280 268 64 11 5 269 4 61 84 14 92 279 270 91 77 10 271 272 70 281 66 273 83 81 79 62 76 75 82 274 63 286 282 287 284 275 278 276 68 9 6 277 13 3 22 19 15</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\hal_entry.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 265</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 170</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19 273 280 285 62 63 276 67 25 81 75 275 269 272 4 279 83 79 76 82 274 278 68 9 6 277 271 15 286 282 287 284 61 90 84 89 14 2 92 88 268 270 39 64 91 77 11 10 66 26 13 5 3 283 70 281 60 58</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\main_thread_entry.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 260</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 179</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2 90 39 283 67 89 88 285 280 268 64 11 5 269 4 61 84 14 92 279 270 91 77 10 271 272 70 281 66 273 83 81 79 62 76 75 82 274 63 286 282 287 284 275 278 276 68 9 6 277 13 3 22 19 15</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\synergy_gen\common_data.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 254</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 176</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 273 280 285 62 63 276 15 67 60 81 75 275 269 4 279 83 79 76 82 274 278 68 9 6 277 271 19 272 286 282 287 284 61 90 84 89 14 2 92 88 268 270 39 64 91 77 11 10 66 25 13 5 3 283 70 281 58</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\driver\r_elc\r_elc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 152</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 207</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\bsp\mcu\s7g2\bsp_group_irq.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 165</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 194</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\driver\r_dtc\r_dtc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 163</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 217</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\bsp\mcu\s7g2\bsp_rom_registers.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 142</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 211</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\driver\r_cgc\hw\hw_cgc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 158</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 221</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\bsp\mcu\s7g2\bsp_fmi_R7FS7G27H3A01CFC.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 150</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 193</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 92 270 91 10 3 84 269 4 274 15 61 14 285 279 280 77 271 13 273 90 89 2 88 268 39 64 11 5 272 283 70 83 81 79 62 76 75 82 63 286 282 287 284 275 278 276 68 9 6 277 19 281</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\bsp\mcu\s7g2\bsp_hw_locks.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 139</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 205</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\driver\r_cgc\r_cgc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 147</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 191</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\driver\r_fmi\r_fmi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 159</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 208</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\bsp\mcu\s7g2\bsp_module_stop.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 151</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 220</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\driver\r_glcd\r_glcd.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 137</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 214</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\driver\r_icu\r_icu.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 161</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 201</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\driver\r_ioport\r_ioport.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 164</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 215</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\driver\r_sci_spi\r_sci_spi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 138</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 196</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\framework\sf_el_gx\gx_display_driver_synergy_dave2d.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 143</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 209</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\driver\r_riic\r_riic.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 146</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 216</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\driver\r_jpeg_decode\r_jpeg_decode.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 162</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 202</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\framework\sf_el_gx\gx_display_driver_synergy_dave2d_8bit_palette.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 199</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 212</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\framework\sf_el_gx\sf_el_gx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 144</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 218</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\bsp\mcu\s7g2\bsp_feature.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 149</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 192</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 63 39 62 273 283 285 282 287 4 81 75 280 275 64 11 5 18 286 284 16 83 79 76 82 274 278 270 91 77 10 271 272 70 281 269 279 316 61 90 84 89 14 2 92 88 268 276 68 9 6 277 13 3 19 15</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\bsp\mcu\all\bsp_locking.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 157</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 175</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14 13 61 285 279 280 77 271 273 15 84 92 269 4 270 91 10 3 90 89 2 88 268 39 64 11 5 272 83 81 79 62 76 75 82 274 63 286 282 287 284 275 278 276 68 9 6 277 19 283 70 281</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\bsp\mcu\all\bsp_register_protection.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 155</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 190</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 285 61 279 280 77 271 14 13 15 84 92 269 4 270 91 10 3 274 273 90 89 2 88 268 39 64 11 5 272 283 70 83 81 79 62 76 75 82 63 286 282 287 284 275 278 276 68 9 6 277 19 281</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\bsp\cmsis\Device\RENESAS\S7G2\Source\system_S7G2.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 154</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 182</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11 285 268 64 2 5 283 4 90 280 54 89 88 39 272 269 7 0 314 61 84 14 92 279 270 91 77 10 271 13 3 70 281 1 313 273 83 81 79 62 76 75 82 274 63 286 282 287 284 275 278 276 68 9 6 277 19 15 315</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\bsp\cmsis\Device\RENESAS\S7G2\Source\startup_S7G2.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 264</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 181</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 286 285 9 271 82 275 79 273 15 83 76 274 284 278 68 6 277 19 4 81 62 75 63 280 282 287 276 269 272 61 90 84 89 14 2 92 88 279 268 270 39 64 91 77 11 10 13 5 3 283 70 281</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\bsp\mcu\all\bsp_common_leds.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 166</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 183</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2 285 268 64 11 5 90 280 283 15 89 88 39 272 70 4 273 61 84 14 92 269 279 270 91 77 10 271 13 3 274 83 81 79 62 76 75 82 63 286 282 287 284 275 278 276 68 9 6 277 19 281</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\bsp\mcu\all\bsp_irq.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 160</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 167</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61 63 81 75 276 269 281 273 62 280 282 287 285 275 70 4 83 79 76 82 274 286 284 278 68 9 6 277 271 19 272 283 7 90 84 89 14 2 92 88 279 268 270 39 64 91 77 11 10 13 5 3 15</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\bsp\mcu\all\bsp_common.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 140</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 187</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61 279 280 77 271 285 14 13 273 15 84 92 269 4 270 91 10 3 90 89 2 88 268 39 64 11 5 272 83 81 79 62 76 75 82 274 63 286 282 287 284 275 278 276 68 9 6 277 19 283 70 281</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\bsp\mcu\all\bsp_sbrk.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 156</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 200</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\bsp\mcu\all\bsp_delay.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 153</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 188</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 274 269 4 84 92 270 91 10 3 15 61 14 285 279 280 77 271 13 273 90 89 2 88 268 39 64 11 5 272 283 70 83 81 79 62 76 75 82 63 286 282 287 284 275 278 276 68 9 6 277 19 281</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\bsp\mcu\s7g2\bsp_cache.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 148</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 195</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 285 283 90 280 2 268 64 11 5 15 89 88 39 272 70 4 273 61 84 14 92 269 279 270 91 77 10 271 13 3 274 83 81 79 62 76 75 82 63 286 282 287 284 275 278 276 68 9 6 277 19 281</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\bsp\mcu\s7g2\bsp_clocks.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 141</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 204</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 77 280 271 84 279 285 4 92 61 14 269 270 91 10 273 15 16 90 89 2 88 268 39 64 11 19 272 18 83 81 79 62 76 75 82 274 63 286 282 287 284 275 278 276 68 9 6 277 13 5 3 283 70 281 316</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\framework\tes\dave2d\dave_rbuffer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 294</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 223</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\framework\tes\dave2d\dave_dlist.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 295</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 240</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\framework\tes\dave2d\dave_driver.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 302</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 238</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\framework\tes\dave2d\dave_line.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 298</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 242</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\framework\tes\dave2d\dave_edge.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 289</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 239</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\framework\tes\dave2d\dave_pattern.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 293</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 226</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\framework\tes\dave2d\dave_perfcount.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 310</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 233</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\framework\tes\dave2d\dave_polyline.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 296</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 222</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\framework\tes\dave2d\dave_quad.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 288</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 243</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\framework\tes\dave2d\dave_curve.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 308</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 248</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\framework\tes\dave2d\dave_context.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 290</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 237</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\framework\tes\dave2d\dave_errorcodes.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 234</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\framework\tes\dave2d\dave_gradient.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 291</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 241</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\framework\tes\dave2d\dave_hardware.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 292</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 251</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\framework\tes\dave2d\dave_math.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 307</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 252</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\framework\tes\dave2d\dave_memory.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 305</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 228</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\framework\tes\dave2d\dave_render.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 306</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 244</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\framework\sf_message\sf_message.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 127</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 203</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\framework\tes\dave2d\dave_blit.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 124</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 229</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\framework\sf_touch_panel_i2c\sf_touch_panel_i2c.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 145</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 198</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\framework\sf_jpeg_decode\sf_jpeg_decode.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 132</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 206</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\framework\sf_tes_2d_drw\sf_tes_2d_drw_memory.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 134</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 219</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\framework\sf_tes_2d_drw\sf_tes_2d_drw_irq.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 177</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 213</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\framework\tes\dave2d\dave_box.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 125</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 245</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\framework\sf_tes_2d_drw\sf_tes_2d_drw_base.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 128</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 197</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\framework\tes\dave2d\dave_64bitoperation.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 136</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 250</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\framework\tes\dave2d\dave_circle.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 303</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 225</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\framework\tes\dave2d\dave_texture.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 297</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 227</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\framework\tes\dave2d\dave_base.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 266</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 224</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\framework\sf_external_irq\sf_external_irq.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 231</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 210</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\framework\tes\dave2d\dave_wedge.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 311</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 246</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\framework\tes\dave2d\dave_utility.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 304</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 230</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp_supplemental\touch_drivers\touch_panel_i2c_sx8654\touch_panel_i2c_sx8654.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 312</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 236</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\framework\tes\dave2d\dave_viewport.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 300</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 235</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\synergy\ssp\src\framework\tes\dave2d\dave_triangle.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 299</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 232</file>
+        </tool>
+      </outputs>
+    </file>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
